@@ -35,9 +35,6 @@ generate_readme() {
   # Header for the README
   cat > "$readme_file" <<EOF
 # Data Directory
-
-This directory contains the following text files:
-
 EOF
 
   # Generate file information
@@ -58,7 +55,6 @@ EOF
     cat >> "$readme_file" <<EOF
 
 ## $filename
-
 - Lines: $line_count
 - $file_info
 EOF
