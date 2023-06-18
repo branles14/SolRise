@@ -21,10 +21,23 @@ clean_file() {
     mv "$temp_file" "$file"
 }
 
-# Clean each file in the data directory
+# Function to count the number of lines in a file
+count_lines() {
+    file="$1"
+    line_count=$(wc -l < "$file")
+    echo "$line_count"
+}
+
+# Clean and test each file in the data directory
 for file in data/*; do
     clean_file "$file"
-done
+    line_count=$(count_lines "$file")
 
-echo "done"
-exit 0
+    if [ "$line_count" -eq 500 ]; then
+        echo "$file: complete"
+    elif [ "$line_count" -lt 500 ]; then
+        echo "$file: incomplete"
+    else
+        echo "$file: error: over fill"
+    fi
+done
