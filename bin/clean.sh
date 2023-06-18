@@ -3,7 +3,7 @@
 clean_file() {
   local file="$1"
   local temp_file=$(mktemp)
-  local violating_words=("gorilla" "spider" "bonobo")
+  local violating_words=("gorilla" "spider" "bonobo" "baboon" "orangutan" "lemur")
 
   # Remove violating lines, incomplete lines & blank lines
   sed -E -e "/\\b($(IFS='|'; echo "${violating_words[*]}"))\\b/d" \

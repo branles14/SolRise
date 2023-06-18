@@ -8,6 +8,11 @@ Hey there, you dozing chimp! The day is calling, and it demands your attention. 
 The dawn has come, oh arboreal one. Step forth into the light of a new day.
 Salutations, primate. Time to uncurl those toes and swing into action.
 Salutations, my agile arboreal buddy. The day is ripe for exploration.
+Good morning, adventurous ape! Time to swing through the day's obstacles and conquer them with your primate resilience.
+Rise and shine, my curious chimp. The world is a vast playground of knowledge, waiting for your primate intellect to explore.
+Greetings, my ingenious primate companion. Let your cleverness shine as bright as the sun and illuminate the world around you.
+Good morning, my charismatic capuchin. It's time to charm the world with your infectious primate charisma and leave a lasting impression.
+Hey there, my playful primate friend. Embrace the day's whimsy and let your mischievous spirit guide you to delightful adventures.
 Good morning, you slumberous golden lion tamarin! The world is your kingdom, waiting for your regal primate presence.
 Awake, master of the monkey bars! Your kingdom of chaos calls.
 Shake off the slumber, hominid! There are dreams to chase and bananas to peel.
@@ -45,7 +50,6 @@ Wakey wakey, woolly monkey! It's time to climb to new heights today.
 Wake up, monkey-boy. Your dreams may be sweet, but reality is sweeter.
 Hello, terrestrial being. The time has come to uncurl from your slumber.
 Morning, primate prodigy! Let's not monkey around and get to it.
-Rise and shine, my languid lemur! The day is your playground, so hop, skip, and jump into action.
 Hey there, you dreaming dynamo! The day has arrived, and it's your cue to transform into the primate powerhouse that you are. Wake up and conquer!
 Wake up, you snoozing siamang! The day is waiting, and your impeccable tree-swinging skills are in high demand.
 Rise and shine, simian sire. The day is wasting while you're hibernating.
@@ -85,7 +89,6 @@ Greetings, little hominid. It's time to open your eyes and greet the dawn.
 Shake off the sleep, simian soul, your opposable thumbs are needed in the world.
 Rise and shine, simian. Your dreams can only take you so far, after all.
 Wake up, my audacious ape. The world awaits your daring exploits and your irresistible charm.
-Hear that, lemur lad? It’s the call of the day. Time to respond!
 Hello, my little human howler monkey. Time to let out a yawp and start your day.
 Rise, oh primate prince, and seize the fruit of the new day!
 Greetings, my simian sidekick. Time to break free from the clutches of sleep and embrace the day's adventures.
@@ -125,7 +128,6 @@ Rise and shine, my somnolent saimiri! The day is an adventure, and you're the in
 Greetings, my curious little capuchin. Today's mission: explore, discover, and conquer.
 Attention, my magnificent macaque. The world eagerly awaits your primate charm and mischievous wit.
 Hey there, sleepyhead! The day is dawning, and it's your chance to shine like a radiant primate star. Wake up and seize the day with all your might!
-Hey there, you drowsy orangutan! The world outside is brimming with adventures, waiting for your curious mind to dive in. Wake up and embark on your primate quest!
 Good morning, splendid simian. Time for another glorious day of primate pursuits.
 Rise and shine, my curious chimp. Time to unlock the secrets of the universe with your boundless primate curiosity.
 Hey there, slug-a-bed! Time to abandon your den and embrace the day. Don't keep the world waiting for your primate presence!
@@ -133,7 +135,6 @@ Good morning, primate pioneer. The world is your playground, so go out and play.
 Wake up, my magnificent macaque. The world eagerly awaits your primate magic and your infectious joy.
 Wake up, my monkey mate. Today's the day to let out your primate prowess.
 Good morning, ape ally. The tree of life awaits your primate power.
-Wake up, baboon buddy. The sun has beaten you to it, again.
 Wake up, ape amigo. Let your dreams fuel the evolution of your day.
 Rise, my anthropoid ally. Time to show the world the power of a primate.
 Hey there, monkey maestro. The world is your orchestra, and it's time to conduct a symphony of success.
@@ -151,7 +152,6 @@ Hey, simian scholar, arise! There's an entire day waiting to be climbed.
 Rise and shine, primate. It's a brand new day to assert your dominance in the jungle.
 Attention, drowsy simian! The day beckons, and you must answer its call. Rise up and let your primate spirit soar!
 Wake up, primate partner. The sun is up, and so should you be.
-Wakefulness awaits, my wonderful orangutan offspring. Make your mark on the day.
 Hello, my helpful howler. Time to make your presence known to the day.
 Wake up, you clever capuchin. Time to solve the puzzles of the day and bask in the glory of your primate intellect.
 Good morning, simian superstar. Today is the day to evolve.
@@ -261,7 +261,6 @@ Wake up, you clever capuchin. Time to solve the puzzles of the day and showcase 
 Good morning, petite proboscis monkey. The world needs your primate prowess today.
 Good morning, my daring little ape. Time to embrace the day's challenges and transform them into triumphs.
 Greetings, my furless primate. It's time to swing from your dreams into the vine of reality.
-Hello, little lemur. Time to make that evolutionary advantage work for you today.
 Wake up, my delightful little drongo. The dawn chorus has begun.
 Salutations, Monkey Maven. Remember, each new day is a chance to climb a taller tree.
 Wakey-wakey, monkey man! The bananas won't collect themselves.
@@ -302,7 +301,6 @@ Rise and shine, my curious chimp. Time to unlock the mysteries of the world with
 Good morning, primate pioneer. Today is your chance to blaze new trails and leave a lasting legacy.
 Hey there, monkey magician. The world is your audience, eagerly awaiting your next trick.
 Rise and shine, monkey mate. Your treetop of dreams is calling.
-Hey there, yawning baboon! The world needs your witty antics and unparalleled facial expressions. Get up and make 'em laugh!
 Let’s put the evolution to good use, homo sapien hero. Time to rise and shine.
 Mornin', banana-buddy. You've successfully slept through the best part of the day, again.
 Wake up, ape. Every day is a chance to evolve, so start evolving.
@@ -340,14 +338,12 @@ Rise and shine, my clever little hominid. Time to unleash your intellectual prow
 Wake up, my anthropoid friend. The tree of life is ripe with opportunities.
 Wake up, you curious chimp. The day is full of mysteries, waiting for your primate intellect to unravel.
 Hello, hominid. The sun is shining, and the trees are whispering your name.
-Good morning, baboon buddy. The day awaits your tail's tale.
 Rise, primate. Sleep is the cousin of death, so greet life with open arms.
 Hey there, primate powerhouse. The day is your playground, so get out there and swing from tree to tree.
 It's a new day, my marvelous macaque. Time to take on the world.
 My little ape, rise and outshine the morning sun. Your day awaits!
 Wakey, wakey, my little tree-swinging friend. Time to peel off those blankets.
 Good morning, chimp companion. Don't let life's coconuts knock you down.
-Hey there, you drowsy orangutan! The world is a canvas, and you are the artist. Wake up, grab your metaphorical paintbrush, and create a masterpiece!
 Wake up, ambitious ape. The world is waiting to be inspired by your extraordinary deeds.
 Wake up, Jungle Jester. Time to swing into a new day of unpredictable primate possibilities.
 Good morning, simian sibling. Grab your dreams by the tail and swing.
@@ -384,7 +380,6 @@ Attention, drowsy hominid! The day is calling, and you must answer. Rise up, my 
 Wake up, you fuzzy-headed ape! The world eagerly awaits your emergence from the depths of slumber. Time to rise and show 'em what you're made of!
 Wake up, hominid. You can't discover fire twice if you keep laying in bed.
 Shake off your dreams, my simian friend, and face the reality of the day.
-It's time to rouse, rambunctious ring-tailed lemur. Start your day with a sashay.
 Hey monkey-boy, it's time to quit hanging around and seize the day.
 Rise, descendant of the forest dwellers, and begin your journey through the concrete jungle.
 Good morning, primate pioneer. Today is your canvas, and you hold the brush of destiny.
@@ -393,7 +388,6 @@ Wake up, monkey man. Time to put those prehensile toes to work.
 Rise, monkey mate. It's time to mark your territory in the wild of the world.
 Hello, slumbering simian. The day is filled with endless opportunities for your insatiable curiosity.
 Good morning, my nimble-fingered simian. Time to weave your primate magic and astound the world.
-Wakey-wakey, you drowsy orangutan! The world outside is bursting with excitement, just waiting for your magnificent presence. Rise and conquer!
 Wake up, you slumbering simian! The world outside is a canvas of opportunities, just waiting for your primate artistry. Time to wake up and paint a masterpiece!
 Hello, chimp chum. Your daily dose of evolution is waiting.
 Greetings, my slumbering chimp! The world outside is your playground, waiting for your curious mind and mischievous antics. Wake up and let the adventure begin!
@@ -460,7 +454,6 @@ Wake up, primate pal. Swing high and grab the day by the vines.
 Wake up, you snoozing simian! The world is buzzing with excitement, and you don't want to miss out. Time to wake up and make some primate memories!
 Attention, my nimble-fingered simian. The day is primed for your extraordinary feats.
 Greetings, my adventurous monkey. The day is your canvas, and you're the artist of thrilling experiences.
-The day has begun, my young orangutan. Time to climb out of your treetop bed.
 Good morning, my little monkey marvel! It's time to shake off the drowsiness and let your inner primate take charge. Rise and conquer!
 Wake up, you magnificent macaque. The world eagerly awaits your primate magic and mischief.
 Wake up, ambitious ape. The world is calling, and it's time to answer.
@@ -481,7 +474,6 @@ Greetings, sleepy macaque monkey! The day is a labyrinth of possibilities, and y
 Good morning, Simian Savant. Let your cranial capacity take center stage today.
 Primate paragon, it's time to break free from the vines of slumber.
 Rise and shine, my adventurous monkey. Time to swing from one thrilling escapade to another.
-Wake up, you dawdling orangutan! The day won't wait for your slow-motion morning routine. Chop-chop!
 Rise and shine, monkey-mind. There's no room for sleep in the survival of the fittest.
 Hey there, slumbering macaque! The world outside your cozy cave is calling your name. Time to answer the wild summons.
 Wake up, ambitious ape. The world is your playground, and it's time to play with purpose.
