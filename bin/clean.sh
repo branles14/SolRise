@@ -42,7 +42,7 @@ main() {
 
   # Process data files
   for file in data/*.txt; do
-    echo "## $file" >> "data/README.md"
+    echo "## $(basename $file)" >> "data/README.md"
 
     clean_file "$file"
     local line_count
