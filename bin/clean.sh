@@ -5,14 +5,13 @@ clean_file() {
   local temp_file=$(mktemp)
   local violating_words=("gorilla" "spider" "bonobo")
 
-  # Remove violating lines, incomplete lines, blank lines in a single sed command
+  # Remove violating lines, incomplete lines & blank lines
   sed -E -e "/\\b($(IFS='|'; echo "${violating_words[*]}"))\\b/d" \
          -e '/^[^[:upper:]]/d; /[^.?!]$/d; /^\s*$/d' \
          "$file" > "$temp_file"
 
   # Remove duplicate lines
-  awk '!seen[$0]++' "$temp_file" > "$file"
-  rm "$temp_file"
+  awk '!seen[$0]++' "$temp_file" > "$file" && rm "$temp_file"
 }
 
 reduce_lines() {
@@ -28,69 +27,37 @@ reduce_lines() {
   done
 }
 
-generate_readme() {
-  local dir="data"
-  local readme_file="$dir/README.md"
-
-  # Header for the README
-  cat > "$readme_file" <<EOF
-# Data Directory
-EOF
-
-  # Generate file information
-  for file in "$dir"/*.txt; do
-    local filename=$(basename "$file")
-    local line_count=$(wc -l < "$file")
-    local file_info=""
-
-    if [ "$line_count" -eq 500 ]; then
-      file_info="Status: Complete"
-    elif [ "$line_count" -lt 500 ]; then
-      file_info="Status: Incomplete"
-    else
-      file_info="Status: Reduced to 500 lines"
-    fi
-
-    # Append file information to README
-    cat >> "$readme_file" <<EOF
-
-## $filename
-- Lines: $line_count
-- $file_info
-EOF
-  done
-}
-
 main() {
-  local dir="data"
-
-  if [[ ! -d "$dir" ]] || [[ -z "$(ls -A "$dir")" ]]; then
-    echo "Either directory $dir does not exist or is empty."
+  # Error checks
+  if [[ ! -d "data" ]]; then
+    echo "Error: Missing dir: data"
+    exit 1
+  elif [[ -z "$(ls -A "data")" ]]; then
+    echo "Error: Empty dir: data"
     exit 1
   fi
 
-  local files=("$dir"/*)
-  if [ ${#files[@]} -eq 0 ]; then
-    echo "No files found in $dir."
-    exit 1
-  fi
+  # Start README file
+  echo "# Data Directory" > "data/README.md"
 
-  for file in "${files[@]}"; do
+  # Process data files
+  for file in data/*.txt; do
+    echo "## $file" >> "data/README.md"
+
     clean_file "$file"
     local line_count
     line_count=$(wc -l < "$file") || { echo "Failed to count lines."; exit 1; }
+    echo "- Lines: $line_count" >> "data/README.md"
 
-    if [ "$line_count" -eq 500 ]; then
-      echo "$file: complete"
-    elif [ "$line_count" -lt 500 ]; then
-      echo "$file: incomplete"
+    if [[ "$line_count" -eq 500 ]]; then
+      echo "- Status: Complete" >> "data/README.md"
+    elif [[ "$line_count" -lt 500 ]]; then
+      echo "- Status: Incomplete" >> "data/README.md"
     else
       reduce_lines "$file" "$line_count"
-      echo "$file: reduced to 500 lines"
+      echo "- Status: Reduced to 500 lines" >> "data/README.md"
     fi
   done
-
-  generate_readme
 }
 
 main "$@"
