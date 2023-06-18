@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the list of violating words
-violating_words=("word1" "word2" "word3")
+violating_words=("gorilla" "spider" "bonobo")
 
 # Function to remove violating, blank, and duplicate lines from a file
 clean_file() {
