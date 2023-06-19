@@ -2,7 +2,6 @@
 
 build_example() {
   local msg_1 msg_2 msg_3 msg_4
-
   while [[ -z $msg_1 || -z $msg_2 || -z $msg_3 || -z $msg_4 ]]; do
     msg_1=$(shuf -n 1 data/1.txt)
     msg_2=$(shuf -n 1 data/2.txt)
