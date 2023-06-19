@@ -13,7 +13,7 @@ build_example() {
         msg_4=$(shuf -n 1 data/4.txt)
     done
 
-    echo "<first>$msg_1<second>$msg_2<third>$msg_3<forth>$msg_4<end>"
+    echo "<|first|>$msg_1<|second|>$msg_2<|third|>$msg_3<|forth|>$msg_4<|endoftext|>"
 }
 
 main() {
