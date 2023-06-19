@@ -27,6 +27,13 @@ reduce_lines() {
   done
 }
 
+shuffle_lines() {
+  local file="$1"
+  local temp_file=$(mktemp)
+  shuf "$file" > "$temp_file"
+  mv "$temp_file" "$file"
+}
+
 main() {
   # Error checks
   if [[ ! -d "data" ]]; then
@@ -42,11 +49,12 @@ main() {
 
   # Process data files
   for file in data/*.txt; do
-    echo "## $(basename $file)" >> "data/README.md"
+    echo "## $(basename "$file")" >> "data/README.md"
     clean_file "$file"
     local line_count
     line_count=$(wc -l < "$file") || { echo "Failed to count lines."; exit 1; }
     if [[ "$line_count" -eq 500 ]]; then
+      shuffle_lines "$file"
       echo "- Lines: $line_count" >> "data/README.md"
       echo "- Status: Complete" >> "data/README.md"
     elif [[ "$line_count" -lt 500 ]]; then
