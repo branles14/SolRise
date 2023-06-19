@@ -55,14 +55,11 @@ main() {
     line_count=$(wc -l < "$file") || { echo "Failed to count lines."; exit 1; }
     if [[ "$line_count" -eq 500 ]]; then
       shuffle_lines "$file"
-      echo "- Lines: $line_count" >> "data/README.md"
       echo "- Status: Complete" >> "data/README.md"
     elif [[ "$line_count" -lt 500 ]]; then
-      echo "- Lines: $line_count" >> "data/README.md"
-      echo "- Status: Incomplete" >> "data/README.md"
+      echo "- Status: Incomplete [lines: $line_count]" >> "data/README.md"
     else
       reduce_lines "$file" "$line_count"
-      echo "- Lines: 500" >> "data/README.md"
       echo "- Status: Complete [Reduced]" >> "data/README.md"
     fi
   done
