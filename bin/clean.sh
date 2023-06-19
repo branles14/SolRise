@@ -43,19 +43,19 @@ main() {
   # Process data files
   for file in data/*.txt; do
     echo "## $(basename $file)" >> "data/README.md"
-
     clean_file "$file"
     local line_count
     line_count=$(wc -l < "$file") || { echo "Failed to count lines."; exit 1; }
-    echo "- Lines: $line_count" >> "data/README.md"
-
     if [[ "$line_count" -eq 500 ]]; then
+      echo "- Lines: $line_count" >> "data/README.md"
       echo "- Status: Complete" >> "data/README.md"
     elif [[ "$line_count" -lt 500 ]]; then
+      echo "- Lines: $line_count" >> "data/README.md"
       echo "- Status: Incomplete" >> "data/README.md"
     else
       reduce_lines "$file" "$line_count"
-      echo "- Status: Reduced to 500 lines" >> "data/README.md"
+      echo "- Lines: 500" >> "data/README.md"
+      echo "- Status: Complete [Reduced]" >> "data/README.md"
     fi
   done
 }

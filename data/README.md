@@ -1,10 +1,10 @@
 # Data Directory
 ## 1-first_attempt.txt
-- Lines: 491
-- Status: Incomplete
+- Lines: 500
+- Status: Complete
 ## 2-subsequent_attempts.txt
-- Lines: 496
-- Status: Incomplete
+- Lines: 500
+- Status: Complete
 ## 3-last_attempt.txt
 - Lines: 291
 - Status: Incomplete
